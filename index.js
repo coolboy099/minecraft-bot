@@ -38,8 +38,8 @@ async function isServerOnline() {
 }
 
 function tryLogin(bot) {
-  bot.chat('/login 1234');
-  setTimeout(() => bot.chat('/register 1234 1234'), 5000);
+  bot.chat('/login devilking09912345');
+  setTimeout(() => bot.chat('/register devilking09912345 devilking09912345'), 5000);
 }
 
 function randomMovement(bot) {
