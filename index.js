@@ -16,7 +16,7 @@ let botNumber = BOT_START;
 let bot;
 let switchTimer;
 let reconnectAttempts = 0;
-const MAX_ATTEMPTS = 5;
+const MAX_ATTEMPTS = 100000;
 
 app.get('/', (req, res) => res.send('✅ Bot is running!'));
 app.listen(3000, () => console.log('🌐 Web server started'));
