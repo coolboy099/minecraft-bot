@@ -1,17 +1,13 @@
 {
-  "name": "minecraft-bot",
+  "name": "minecraft-bot-server",
   "version": "1.0.0",
-  "description": "Minecraft AFK bot with switching and random movement",
+  "description": "Minecraft bot with web server and auto login/register",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "mineflayer": "^4.17.1",
-    "node-fetch": "^2.6.7"
-  },
-  "engines": {
-    "node": ">=18.0.0"
+    "mineflayer": "^4.15.0"
   }
 }
