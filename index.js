@@ -6,9 +6,9 @@ let isBotConnected = false;
 
 function createBot() {
   bot = mineflayer.createBot({
-    host: "aternos-server-name.aternos.me", // <-- Aapka Aternos host yahan likhein
-    port: 25565, // default port unless it's different
-    username: "devilkingop099", // Can be anything for cracked servers
+    host: "dttyagi-lol10110.aternos.me", // <-- Aapka Aternos host yahan likhein
+    port: 40234, // default port unless it's different
+    username: "sonop", // Can be anything for cracked servers
     version: false // Let it auto-detect
   });
 
