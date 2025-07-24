@@ -8,7 +8,7 @@ function createBot() {
   bot = mineflayer.createBot({
     host: "dttyagi-lol10110.aternos.me", // <-- Aapka Aternos host yahan likhein
     port: 40234, // default port unless it's different
-    username: "BETA3", // Can be anything for cracked servers
+    username: "BETAOP", // Can be anything for cracked servers
     version: false // Let it auto-detect
   });
 
