@@ -1,13 +1,11 @@
 {
-  "name": "minecraft-bot-server",
+  "name": "username-backend",
   "version": "1.0.0",
-  "description": "Minecraft bot with web server and auto login/register",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "mineflayer": "^4.15.0"
+    "express": "^5.1.0"
   }
 }
